@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CLCBannerNotifications_Example', :exclusive => true do
+  pod "CLCBannerNotifications", :path => "../"
+end
+
+target 'CLCBannerNotifications_Tests', :exclusive => true do
+  pod "CLCBannerNotifications", :path => "../"
+  
+end

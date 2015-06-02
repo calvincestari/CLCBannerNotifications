@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CLCBannerNotifications_Example_CLCBannerNotifications : NSObject
+@end
+@implementation PodsDummy_Pods_CLCBannerNotifications_Example_CLCBannerNotifications
+@end
