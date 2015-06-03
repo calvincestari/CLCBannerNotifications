@@ -10,8 +10,6 @@
 
 #import "CLCBannerNotification.h"
 
-extern NSTimeInterval const kCLCDefaultNotificationDisplayTime;
-
 // This class provides an internal (foreground) notification system.
 @interface CLCBannerNotificationManager : NSObject
 
