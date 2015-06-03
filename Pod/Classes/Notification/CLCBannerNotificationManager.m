@@ -9,8 +9,6 @@
 #import "CLCBannerNotificationManager.h"
 #import "CLCNotificationViewController.h"
 
-NSTimeInterval const kCLCDefaultNotificationDisplayTime = 6; // I think this matches the default iOS notification display time
-
 @interface CLCBannerNotificationManager ()
 
 @property (nonatomic, strong) NSMutableArray *notificationQueue;
