@@ -63,9 +63,11 @@
 - (void)enqueueNotification:(CLCBannerNotification *)notification {
     NSParameterAssert(notification);
 
-    [self.notificationQueue addObject:notification];
+    if (notification) {
+        [self.notificationQueue addObject:notification];
 
-    [self processNotificationQueue];
+        [self processNotificationQueue];
+    }
 }
 
 // Sequentially processes all banner notifications and displays each until the display time has elapsed or the user taps the banner view.
@@ -83,9 +85,11 @@
 
                 dispatch_semaphore_signal(self.processSemaphore); // release semaphore so we can display the next queued notification
 
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    [self processNotificationQueue];
-                });
+                if (self.notificationQueue.count) {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [self processNotificationQueue];
+                    });
+                }
             }];
 
         } else {

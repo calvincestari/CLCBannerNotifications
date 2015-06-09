@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "CLCNotificationBannerView.h"
+
 typedef NS_ENUM(NSUInteger, CLCNotificationResult) {
     CLCNotificationUserDismiss, // when the user taps the X button to dismiss
     CLCNotificationUserInteraction, // when the user taps the banner view; can be used to assume dismissal too

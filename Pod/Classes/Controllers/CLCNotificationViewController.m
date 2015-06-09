@@ -36,20 +36,28 @@ CGFloat const kCLCNotificationViewControllerDismissDuration = 0.15f;
 - (void)displayNotification:(CLCBannerNotification *)notification completion:(CLCNotificationCompletion)completion {
     NSParameterAssert(notification);
 
-    CGRect rect = CGRectMake(0, -CGRectGetHeight(self.view.bounds), CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds));
-    CLCNotificationBannerView *view = [[CLCNotificationBannerView alloc] initWithFrame:rect];
-    view.messageLabel.text = notification.message;
-    [view.dismissButton addTarget:self action:@selector(userWillDismissNotification:) forControlEvents:UIControlEventTouchUpInside];
-    [view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(userWillInteractNotification:)]];
+    CGRect displayRect = CGRectMake(0, -CGRectGetHeight(self.view.bounds), CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds));
 
-    [self.view addSubview:view];
-    self.bannerView = view;
+    self.bannerView = ({
+        CLCNotificationBannerView *view = [[CLCNotificationBannerView alloc] initWithFrame:displayRect];
+        view.messageLabel.text = notification.message;
 
+        [view.dismissButton addTarget:self action:@selector(userWillDismissNotification:) forControlEvents:UIControlEventTouchUpInside];
+
+        [view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(userWillInteractNotification:)]];
+
+        view;
+    });
+
+    self.completionBlock = completion;
+
+    [self.view addSubview:self.bannerView];
     [self.view layoutIfNeeded];
-    rect.origin.y = 0;
+
+    displayRect.origin.y = 0;
 
     [UIView animateWithDuration:kCLCNotificationViewControllerPresentDuration delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        view.frame = rect;
+        self.bannerView.frame = displayRect;
 
     } completion:^(BOOL finished) {
         __weak __typeof(self) weakSelf = self;
@@ -61,8 +69,6 @@ CGFloat const kCLCNotificationViewControllerDismissDuration = 0.15f;
             }
         });
     }];
-
-    self.completionBlock = completion;
 }
 
 - (void)userWillDismissNotification:(id)sender {

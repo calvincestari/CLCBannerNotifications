@@ -6,9 +6,68 @@
 //  Copyright (c) 2015 Calvin Cestari. All rights reserved.
 //
 
+#import <objc/runtime.h>
+
 #import "CLCNotificationBannerView.h"
 
+static void *CLCNotificationBannerViewBackgroundColorKey;
+static void *CLCNotificationBannerViewTextColorKey;
+static void *CLCNotificationBannerViewFontKey;
+
+@interface CLCNotificationBannerView ()
+
+@property (nonatomic, readonly) UIColor *defaultBackgroundColor;
+@property (nonatomic, readonly) UIColor *defaultTextColor;
+@property (nonatomic, readonly) UIFont *defaultFont;
+
+@end
+
 @implementation CLCNotificationBannerView
+
++ (void)setBackgroundColor:(UIColor *)backgroundColor {
+    objc_setAssociatedObject([self class], &CLCNotificationBannerViewBackgroundColorKey, backgroundColor, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
++ (void)setTextColor:(UIColor *)textColor {
+    objc_setAssociatedObject([self class], &CLCNotificationBannerViewTextColorKey, textColor, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
++ (void)setFont:(UIFont *)font {
+    objc_setAssociatedObject([self class], &CLCNotificationBannerViewFontKey, font, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (UIColor *)defaultBackgroundColor {
+    id obj = objc_getAssociatedObject([self class], &CLCNotificationBannerViewBackgroundColorKey);
+
+    if (obj && [obj isKindOfClass:[UIColor class]]) {
+        return obj;
+
+    } else {
+        return [UIColor colorWithWhite:0.21176470588235f alpha:0.98f];
+    }
+}
+
+- (UIColor *)defaultTextColor {
+    id obj = objc_getAssociatedObject([self class], &CLCNotificationBannerViewTextColorKey);
+
+    if (obj && [obj isKindOfClass:[UIColor class]]) {
+        return obj;
+
+    } else {
+        return [UIColor whiteColor];
+    }
+}
+
+- (UIFont *)defaultFont {
+    id obj = objc_getAssociatedObject([self class], &CLCNotificationBannerViewFontKey);
+
+    if (obj && [obj isKindOfClass:[UIFont class]]) {
+        return obj;
+
+    } else {
+        return [UIFont systemFontOfSize:16];
+    }
+}
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (!(self = [super initWithFrame:frame])) {
@@ -21,17 +80,16 @@
 }
 
 - (void)configureView {
-    self.backgroundColor = [UIColor colorWithWhite:0.21176470588235f alpha:0.98f];
+    self.backgroundColor = self.defaultBackgroundColor;
     self.clipsToBounds = YES;
 
     UILabel *label = [UILabel new];
     label.translatesAutoresizingMaskIntoConstraints = NO;
     label.numberOfLines = 2;
     label.textAlignment = NSTextAlignmentLeft;
-    label.font = [UIFont systemFontOfSize:18];
-    label.minimumScaleFactor = 0.888f; // minimum font size 16
+    label.font = self.defaultFont;
     label.backgroundColor = [UIColor clearColor];
-    label.textColor = [UIColor whiteColor];
+    label.textColor = self.defaultTextColor;
 
     [label setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
 
