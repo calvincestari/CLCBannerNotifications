@@ -1,5 +1,5 @@
 PODS:
-  - CLCBannerNotifications (0.1.0)
+  - CLCBannerNotifications (0.2)
 
 DEPENDENCIES:
   - CLCBannerNotifications (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CLCBannerNotifications: df8bbf9dd30eba5b66b45f5046fd789800154511
+  CLCBannerNotifications: 147d21b3c46925369aa757f277d7f077d99ef4b7
 
 COCOAPODS: 0.36.4

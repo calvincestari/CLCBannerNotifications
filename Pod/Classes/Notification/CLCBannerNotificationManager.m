@@ -7,46 +7,41 @@
 //
 
 #import "CLCBannerNotificationManager.h"
-#import "CLCNotificationViewController.h"
+#import "CLCBannerNotificationDisplayController.h"
+
+CGFloat const kCLCBannerNotificationViewPresentDuration = 0.35f;
+CGFloat const kCLCBannerNotificationViewDismissDuration = 0.15f;
 
 @interface CLCBannerNotificationManager ()
 
 @property (nonatomic, strong) NSMutableArray *notificationQueue;
 @property (nonatomic, strong) dispatch_semaphore_t processSemaphore;
+@property (nonatomic, readonly) CLCBannerNotificationDisplayController *displayController;
 
 @end
 
 @implementation CLCBannerNotificationManager
 
 + (instancetype)sharedManager {
-    static CLCBannerNotificationManager *instance;
+    static CLCBannerNotificationManager *obj;
     static dispatch_once_t onceToken;
 
     dispatch_once(&onceToken, ^{
-        instance = [[CLCBannerNotificationManager alloc] init];
+        obj = [CLCBannerNotificationManager new];
     });
 
-    return instance;
+    return obj;
 }
 
-// Creates a window and view controller in which to display the banner notification.
-+ (CLCNotificationViewController *)viewController {
-    static CLCNotificationViewController *viewController;
-    static UIWindow *window;
+- (CLCBannerNotificationDisplayController *)displayController {
+    static CLCBannerNotificationDisplayController *obj;
     static dispatch_once_t onceToken;
 
     dispatch_once(&onceToken, ^{
-        window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 64)];
-        window.userInteractionEnabled = YES;
-        window.windowLevel = UIWindowLevelAlert;
-        window.rootViewController = viewController = [CLCNotificationViewController new];
-
-        [window makeKeyAndVisible];
-
-        viewController.view.frame = window.bounds;
+        obj = [CLCBannerNotificationDisplayController new];
     });
 
-    return viewController;
+    return obj;
 }
 
 - (instancetype)init {
@@ -78,7 +73,7 @@
         if (notification) {
             [self.notificationQueue removeObject:notification];
 
-            [[CLCBannerNotificationManager viewController] displayNotification:notification completion:^(CLCNotificationResult result) {
+            [self.displayController displayNotification:notification completion:^(CLCBannerNotificationResult result) {
                 if (notification.completion) {
                     notification.completion(result);
                 }

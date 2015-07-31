@@ -7,422 +7,387 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0238609A7E9ED737F8E067BB /* CLCNotificationBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 139929932129123F82856E93 /* CLCNotificationBannerView.m */; };
-		0823096522C89663D3099A42 /* Pods-CLCBannerNotifications_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 300B2FFC25E179ED0F79DD79 /* Pods-CLCBannerNotifications_Tests-dummy.m */; };
-		0C74A8401F549E7AD7848248 /* icon-cancel-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D26B4B3559DCDCAABE2C10 /* icon-cancel-white@2x.png */; };
-		151FD6EB26253BFDCB2A2C94 /* icon-cancel-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8437E378F9EAEB3A31426339 /* icon-cancel-white.png */; };
-		175E1E7816779927EF9AFF39 /* CLCBannerNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F116D5B279EE97BB01C46AA /* CLCBannerNotification.m */; };
-		1B7BFC0A05F048BEA687E0D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38453FD915A7CE071CADA6E7 /* Foundation.framework */; };
-		1C30FC15BD159CE0080061C2 /* CLCNotificationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0755A015D226FD69D61895E4 /* CLCNotificationViewController.h */; };
-		21366C809032A11C46C3090A /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B915A1AE625AD5DE0B4D4D7B /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m */; };
-		2AD495CD56469040387CE0F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38453FD915A7CE071CADA6E7 /* Foundation.framework */; };
-		5BD047B06184E917E684EB25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DC0CC51A2D694DF8295BD9 /* UIKit.framework */; };
-		67808AB5EFA7A2F300985391 /* CLCBannerNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 1731C2B02B2A7526CC0D5DAE /* CLCBannerNotification.h */; };
-		683222F37CFB16F009CC989C /* CLCNotificationBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8131A945094BDC9A32CE5CD9 /* CLCNotificationBannerView.h */; };
-		68C6FD76D81603E63F13BB9F /* CLCNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521F83B3069412544306E70 /* CLCNotificationViewController.m */; };
-		8C1F1D8E3BA66976979CE15C /* CLCNotificationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0755A015D226FD69D61895E4 /* CLCNotificationViewController.h */; };
-		900AF50E9DF8C5C204251915 /* icon-cancel-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8437E378F9EAEB3A31426339 /* icon-cancel-white.png */; };
-		90ABA56F8E26F33DC915A0F8 /* CLCBannerNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F116D5B279EE97BB01C46AA /* CLCBannerNotification.m */; };
-		9309375064704C093A038DF0 /* CLCNotificationBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8131A945094BDC9A32CE5CD9 /* CLCNotificationBannerView.h */; };
-		AB2A7F88B269806A56D19B5D /* CLCBannerNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5345106C2A9A5EF505F3B9F /* CLCBannerNotificationManager.h */; };
-		B4E44827FFEA45C6D89E220A /* CLCBannerNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 1731C2B02B2A7526CC0D5DAE /* CLCBannerNotification.h */; };
-		B8D9FA3BE36C753C61679BE2 /* CLCNotificationBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 139929932129123F82856E93 /* CLCNotificationBannerView.m */; };
-		BEFB272B568F6F277AA3A7FB /* CLCBannerNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AC863A9ADAF8B7D5377CD8 /* CLCBannerNotificationManager.m */; };
-		BF5A1BCE1E2A8ED0C1D258A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38453FD915A7CE071CADA6E7 /* Foundation.framework */; };
-		C15F76EB975D7DED0EE572EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38453FD915A7CE071CADA6E7 /* Foundation.framework */; };
-		C7475D029F0272A9681A58F7 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7449208C696B4C709076A4C /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m */; };
-		CD09921BC503B66F16A1AAA7 /* CLCBannerNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AC863A9ADAF8B7D5377CD8 /* CLCBannerNotificationManager.m */; };
-		D7EAA74113B749302C48D11A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DC0CC51A2D694DF8295BD9 /* UIKit.framework */; };
-		DFF5D85B36E6456819B745EA /* CLCBannerNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5345106C2A9A5EF505F3B9F /* CLCBannerNotificationManager.h */; };
-		E4EED2CDC9590F30DCEF721E /* CLCNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0521F83B3069412544306E70 /* CLCNotificationViewController.m */; };
-		F8D468AEECB20068620E13D2 /* icon-cancel-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D26B4B3559DCDCAABE2C10 /* icon-cancel-white@2x.png */; };
-		FE824AD07A2EB4BC6F1F0FB4 /* Pods-CLCBannerNotifications_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5068B22B505D40680A8AE66 /* Pods-CLCBannerNotifications_Example-dummy.m */; };
+		01D419EDC6D3CB0AFD17977F /* icon-cancel-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F87A831C95A09B475C45DFFD /* icon-cancel-white@2x.png */; };
+		119CAF6F59C5918C83B43492 /* Pods-CLCBannerNotifications_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C1F8E9004C83D407CDAD27 /* Pods-CLCBannerNotifications_Example-dummy.m */; };
+		14591F2118732BBD99B213C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BDDEEE1DA6EFDAA3F5DEEF /* Foundation.framework */; };
+		1B96AF30CBFF8AFCB1EACCAB /* CLCBannerNotificationDisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6959B090B8F908018B867464 /* CLCBannerNotificationDisplayController.h */; };
+		2433FCC24E34E5ABF82D2AD4 /* CLCBannerNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 489849B13527DD00A524CF47 /* CLCBannerNotificationManager.m */; };
+		24570FF3EB92366E46A44E43 /* CLCBannerNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 489849B13527DD00A524CF47 /* CLCBannerNotificationManager.m */; };
+		34FDF439EA4DEF2CCF2FD929 /* CLCBannerNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E111815DF3EE0D4299C31CFC /* CLCBannerNotificationManager.h */; };
+		3A0D6EE2545B23277C49C833 /* CLCBannerNotificationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BF136D1950DCA382ED3BFF /* CLCBannerNotificationView.h */; };
+		3ABA35029C0867299EA2737A /* icon-cancel-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F87A831C95A09B475C45DFFD /* icon-cancel-white@2x.png */; };
+		48078E6E0F5737E759630FE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BDDEEE1DA6EFDAA3F5DEEF /* Foundation.framework */; };
+		48F1A8337A2BD560DC0CDA5D /* Pods-CLCBannerNotifications_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F097EC0AA95D5B7994EDE /* Pods-CLCBannerNotifications_Tests-dummy.m */; };
+		7BCD4332A931D102F8715C80 /* CLCBannerNotificationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BF136D1950DCA382ED3BFF /* CLCBannerNotificationView.h */; };
+		7C149E53387A27337AB7816E /* CLCBannerNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FD55B483BE7609618DCFB198 /* CLCBannerNotification.m */; };
+		8A75C393E26D4706978923F6 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF445501ADD9A0C4C9F4E /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m */; };
+		973474E717270DD49E68B963 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C7E7E7234914F6C42E3C7C /* UIKit.framework */; };
+		9C70A3F5D6FB842A648265FF /* CLCBannerNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2665442FC832F9778BE2CD /* CLCBannerNotification.h */; };
+		A5EBB0824577DAA86E821ECD /* icon-cancel-white.png in Resources */ = {isa = PBXBuildFile; fileRef = D9803CA4B7E331FADCEC0060 /* icon-cancel-white.png */; };
+		A98957F0DEE1DCFB3C605A1D /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68448F66BC5E6D1065D773F2 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m */; };
+		ABC479FFBBC4BF1EE56D5B1E /* CLCBannerNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C69B306849B3E7BDC04D0D6 /* CLCBannerNotificationView.m */; };
+		B0076EF62E9046861EF314E6 /* CLCBannerNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2665442FC832F9778BE2CD /* CLCBannerNotification.h */; };
+		B165A6F33F976C9D0FE19CB2 /* CLCBannerNotificationDisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6959B090B8F908018B867464 /* CLCBannerNotificationDisplayController.h */; };
+		B8B1D0EC1711B590CBABAB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BDDEEE1DA6EFDAA3F5DEEF /* Foundation.framework */; };
+		C18C96CE1B801B96A1D27047 /* CLCBannerNotificationDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C506F8F32D8CB50D0A0950C /* CLCBannerNotificationDisplayController.m */; };
+		C7A4AC537154AB836C6E7D22 /* CLCBannerNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FD55B483BE7609618DCFB198 /* CLCBannerNotification.m */; };
+		CBAD8B3D9B0B13C8C6797EA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C7E7E7234914F6C42E3C7C /* UIKit.framework */; };
+		D5680733C249C9433B77A89A /* CLCBannerNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E111815DF3EE0D4299C31CFC /* CLCBannerNotificationManager.h */; };
+		E6B4CD69736141C45AFC719B /* CLCBannerNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C69B306849B3E7BDC04D0D6 /* CLCBannerNotificationView.m */; };
+		EE880DE648ACE943CCD4D6E3 /* icon-cancel-white.png in Resources */ = {isa = PBXBuildFile; fileRef = D9803CA4B7E331FADCEC0060 /* icon-cancel-white.png */; };
+		F589CCAA1042F6292FFEF5D1 /* CLCBannerNotificationDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C506F8F32D8CB50D0A0950C /* CLCBannerNotificationDisplayController.m */; };
+		F715E876207E73730B1BECDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BDDEEE1DA6EFDAA3F5DEEF /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20793682C2C325016FA9E927 /* PBXContainerItemProxy */ = {
+		0F032430E47A342FA3BEC2A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4315B227007922FEA86062E8 /* Project object */;
+			containerPortal = 5C83AEA21AA77CDE95EF31EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34AB50097D162B360CFD2011;
-			remoteInfo = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications";
-		};
-		658C7131205ADD8D69FCEA3C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4315B227007922FEA86062E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A638D3A8245256B424E9D9A7;
+			remoteGlobalIDString = 36BEBA4FCCE81CD9D908D923;
 			remoteInfo = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications";
 		};
-		AE9C0F2C7DBE4E84BDDD956B /* PBXContainerItemProxy */ = {
+		BA25F05E3F77E559FF8A46FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4315B227007922FEA86062E8 /* Project object */;
+			containerPortal = 5C83AEA21AA77CDE95EF31EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E39704FB13EF7BE93133F6F;
-			remoteInfo = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications";
+			remoteGlobalIDString = DD412F99AA017896CB5BFC62;
+			remoteInfo = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications";
 		};
-		DEDF555C6786248F91AEF218 /* PBXContainerItemProxy */ = {
+		D308E0992D721A483CB09A73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4315B227007922FEA86062E8 /* Project object */;
+			containerPortal = 5C83AEA21AA77CDE95EF31EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D96D0803F89E74192C66837B;
+			remoteGlobalIDString = 8DE7CDD47337240D4588AEFA;
 			remoteInfo = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications";
+		};
+		F46FA4F1E020D5001C9F07AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C83AEA21AA77CDE95EF31EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2154D409D5A6CEF285DB66B9;
+			remoteInfo = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0521F83B3069412544306E70 /* CLCNotificationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCNotificationViewController.m; sourceTree = "<group>"; };
-		06D26B4B3559DCDCAABE2C10 /* icon-cancel-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-cancel-white@2x.png"; sourceTree = "<group>"; };
-		0755A015D226FD69D61895E4 /* CLCNotificationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCNotificationViewController.h; sourceTree = "<group>"; };
-		0F17840C996DCA33C10D0B2F /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch"; path = "../Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch"; sourceTree = "<group>"; };
-		139929932129123F82856E93 /* CLCNotificationBannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCNotificationBannerView.m; sourceTree = "<group>"; };
-		1731C2B02B2A7526CC0D5DAE /* CLCBannerNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBannerNotification.h; sourceTree = "<group>"; };
-		1F116D5B279EE97BB01C46AA /* CLCBannerNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBannerNotification.m; sourceTree = "<group>"; };
-		300B2FFC25E179ED0F79DD79 /* Pods-CLCBannerNotifications_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLCBannerNotifications_Tests-dummy.m"; sourceTree = "<group>"; };
-		33B1DE67D95394030FC4ECD1 /* Pods-CLCBannerNotifications_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		371E04EF76210214375B96BF /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications.xcconfig"; sourceTree = "<group>"; };
-		38453FD915A7CE071CADA6E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		38717908B4EB150F9A3BBCE9 /* libPods-CLCBannerNotifications_Tests-CLCBannerNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLCBannerNotifications_Tests-CLCBannerNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A4032F787B072863C6DE706 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch"; sourceTree = "<group>"; };
-		4082758A4782C5A459FFFDE9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		512390992B01DB92ED475069 /* Pods-CLCBannerNotifications_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5862CD4E250C9BF1B3C8D16A /* CLCBannerNotifications.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLCBannerNotifications.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D443EF303EA2BB41F7C6325 /* libPods-CLCBannerNotifications_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLCBannerNotifications_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68F07B66CCC6F5E823AD2D97 /* Pods-CLCBannerNotifications_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		70AC863A9ADAF8B7D5377CD8 /* CLCBannerNotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBannerNotificationManager.m; sourceTree = "<group>"; };
-		79BA71326A96F87C4CD710C2 /* Pods-CLCBannerNotifications_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLCBannerNotifications_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7B38990703AA743F34DAC285 /* Pods-CLCBannerNotifications_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLCBannerNotifications_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8131A945094BDC9A32CE5CD9 /* CLCNotificationBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCNotificationBannerView.h; sourceTree = "<group>"; };
-		83946DA393B5931F48B58643 /* Pods-CLCBannerNotifications_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Example.release.xcconfig"; sourceTree = "<group>"; };
-		842F8F83FD3F211F338C8E7E /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig"; sourceTree = "<group>"; };
-		8437E378F9EAEB3A31426339 /* icon-cancel-white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-cancel-white.png"; sourceTree = "<group>"; };
-		8856E924DBE15A006B625657 /* Pods-CLCBannerNotifications_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLCBannerNotifications_Example-resources.sh"; sourceTree = "<group>"; };
-		9B53AD8DE06A61CBB17BC20F /* Pods-CLCBannerNotifications_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLCBannerNotifications_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9DD4A2A0FB38E40285F61142 /* libPods-CLCBannerNotifications_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLCBannerNotifications_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F6D4B65AABB0891523204F7 /* Pods-CLCBannerNotifications_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLCBannerNotifications_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A5068B22B505D40680A8AE66 /* Pods-CLCBannerNotifications_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLCBannerNotifications_Example-dummy.m"; sourceTree = "<group>"; };
-		B54F5C691A24102E92AD4FF2 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications.xcconfig"; path = "../Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications.xcconfig"; sourceTree = "<group>"; };
-		B915A1AE625AD5DE0B4D4D7B /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m"; path = "../Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m"; sourceTree = "<group>"; };
-		BBAC0750C8359DFFF59827E4 /* Pods-CLCBannerNotifications_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLCBannerNotifications_Tests-resources.sh"; sourceTree = "<group>"; };
-		C5F77EAC80787295D32A8BB1 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig"; path = "../Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig"; sourceTree = "<group>"; };
-		C7449208C696B4C709076A4C /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m"; sourceTree = "<group>"; };
-		CDCCC65B69F2A183DE8D316C /* libPods-CLCBannerNotifications_Example-CLCBannerNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLCBannerNotifications_Example-CLCBannerNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1DC0CC51A2D694DF8295BD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E26C4FB78D2B1F5A3DC7F674 /* Pods-CLCBannerNotifications_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLCBannerNotifications_Example-environment.h"; sourceTree = "<group>"; };
-		EC60E4B8E1383C7F87FC4CB1 /* CLCBannerNotifications.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLCBannerNotifications.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED82121FF92AB7ADE1D177A8 /* Pods-CLCBannerNotifications_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLCBannerNotifications_Tests-environment.h"; sourceTree = "<group>"; };
-		F5345106C2A9A5EF505F3B9F /* CLCBannerNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBannerNotificationManager.h; sourceTree = "<group>"; };
+		0C69B306849B3E7BDC04D0D6 /* CLCBannerNotificationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBannerNotificationView.m; sourceTree = "<group>"; };
+		11BF136D1950DCA382ED3BFF /* CLCBannerNotificationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBannerNotificationView.h; sourceTree = "<group>"; };
+		124B789B225624CA59E80C4B /* Pods-CLCBannerNotifications_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		145238279200382FA2272B86 /* CLCBannerNotifications.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLCBannerNotifications.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C1F8E9004C83D407CDAD27 /* Pods-CLCBannerNotifications_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLCBannerNotifications_Example-dummy.m"; sourceTree = "<group>"; };
+		1915BD91A586A1358F18AB99 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig"; path = "../Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig"; sourceTree = "<group>"; };
+		1D49DD1187C6C3F6658F1898 /* Pods-CLCBannerNotifications_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLCBannerNotifications_Example-environment.h"; sourceTree = "<group>"; };
+		23632E30D166EE683340CE10 /* Pods-CLCBannerNotifications_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF49113B060B14EDAECF7DA /* Pods-CLCBannerNotifications_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		33CF3D2EDEDD4174DAD1B190 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications.xcconfig"; sourceTree = "<group>"; };
+		3462717D4AC265379B8BCB00 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		489849B13527DD00A524CF47 /* CLCBannerNotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBannerNotificationManager.m; sourceTree = "<group>"; };
+		4A7D6F9925CC807FA5654908 /* Pods-CLCBannerNotifications_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLCBannerNotifications_Tests-environment.h"; sourceTree = "<group>"; };
+		5B4F097EC0AA95D5B7994EDE /* Pods-CLCBannerNotifications_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLCBannerNotifications_Tests-dummy.m"; sourceTree = "<group>"; };
+		5B88634F64858B1610518335 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch"; sourceTree = "<group>"; };
+		5FEF91B2DB5EE832C7E2C094 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch"; path = "../Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch"; sourceTree = "<group>"; };
+		68448F66BC5E6D1065D773F2 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m"; sourceTree = "<group>"; };
+		6959B090B8F908018B867464 /* CLCBannerNotificationDisplayController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBannerNotificationDisplayController.h; sourceTree = "<group>"; };
+		6D93C95032293BEE40C1076C /* Pods-CLCBannerNotifications_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLCBannerNotifications_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7ABDF445501ADD9A0C4C9F4E /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m"; path = "../Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m"; sourceTree = "<group>"; };
+		80BDDEEE1DA6EFDAA3F5DEEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86D379DEFEF9C146A76FE68F /* Pods-CLCBannerNotifications_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLCBannerNotifications_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B2665442FC832F9778BE2CD /* CLCBannerNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBannerNotification.h; sourceTree = "<group>"; };
+		8C506F8F32D8CB50D0A0950C /* CLCBannerNotificationDisplayController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBannerNotificationDisplayController.m; sourceTree = "<group>"; };
+		8D5A904D25A4FBCA962538B2 /* libPods-CLCBannerNotifications_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLCBannerNotifications_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CC8767104F194EA8CF199C /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig"; sourceTree = "<group>"; };
+		AEE7CF7A309BCA0691FDCE01 /* libPods-CLCBannerNotifications_Tests-CLCBannerNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLCBannerNotifications_Tests-CLCBannerNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CB1D3AD315F4CF82A8B37D /* CLCBannerNotifications.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLCBannerNotifications.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25E63EC98BDB0DCEA057610 /* Pods-CLCBannerNotifications_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLCBannerNotifications_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2C7E7E7234914F6C42E3C7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBBFBFBF3AF3918D1BDEC44A /* libPods-CLCBannerNotifications_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLCBannerNotifications_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D723A7BBBC9F369EE5C28A1C /* Pods-CLCBannerNotifications_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLCBannerNotifications_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9803CA4B7E331FADCEC0060 /* icon-cancel-white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-cancel-white.png"; sourceTree = "<group>"; };
+		DF3C6548F1D84CD44B767B6B /* Pods-CLCBannerNotifications_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLCBannerNotifications_Example-resources.sh"; sourceTree = "<group>"; };
+		E111815DF3EE0D4299C31CFC /* CLCBannerNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLCBannerNotificationManager.h; sourceTree = "<group>"; };
+		E52CABB60057BF3A2A8A6DB9 /* libPods-CLCBannerNotifications_Example-CLCBannerNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLCBannerNotifications_Example-CLCBannerNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8825E2D1AEFAFBFDCD46033 /* Pods-CLCBannerNotifications_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLCBannerNotifications_Tests-resources.sh"; sourceTree = "<group>"; };
+		EFE385856EDDC2F1A07EAC5E /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications.xcconfig"; path = "../Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications.xcconfig"; sourceTree = "<group>"; };
+		F87A831C95A09B475C45DFFD /* icon-cancel-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon-cancel-white@2x.png"; sourceTree = "<group>"; };
+		F96F73F2A89F2E7182CA4414 /* Pods-CLCBannerNotifications_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLCBannerNotifications_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FD55B483BE7609618DCFB198 /* CLCBannerNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLCBannerNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0493292668C0000D63821538 /* Frameworks */ = {
+		3B59F570AE98861D687D28CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C15F76EB975D7DED0EE572EF /* Foundation.framework in Frameworks */,
+				F715E876207E73730B1BECDA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C52C09326419EED8D41D579 /* Frameworks */ = {
+		6112E680000C51E09DAC64BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48078E6E0F5737E759630FE2 /* Foundation.framework in Frameworks */,
+				973474E717270DD49E68B963 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B903A322A09FEE0204D6D462 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A855F266821BFABECD8FF69 /* Frameworks */ = {
+		BE81DA7F82A62811013C88B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD495CD56469040387CE0F3 /* Foundation.framework in Frameworks */,
-				5BD047B06184E917E684EB25 /* UIKit.framework in Frameworks */,
+				14591F2118732BBD99B213C8 /* Foundation.framework in Frameworks */,
+				CBAD8B3D9B0B13C8C6797EA9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90F8556D9B761BF84663743A /* Frameworks */ = {
+		DCF856B95E95D17B1DBE5E71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B7BFC0A05F048BEA687E0D1 /* Foundation.framework in Frameworks */,
-				D7EAA74113B749302C48D11A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED5270653F5AC25A89B3F1AB /* Frameworks */ = {
+		EF56C86BA3500C463952F4AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5A1BCE1E2A8ED0C1D258A9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F075B723D9D32F7F39252807 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B8B1D0EC1711B590CBABAB91 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		034F0B1972FEEE439085EE91 /* Development Pods */ = {
+		068BA5A8F02B5C044167C874 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				33CDA1759D1179084A56FF76 /* CLCBannerNotifications */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		042A18655F405C169E986AD7 /* Pods-CLCBannerNotifications_Example */ = {
-			isa = PBXGroup;
-			children = (
-				79BA71326A96F87C4CD710C2 /* Pods-CLCBannerNotifications_Example-acknowledgements.markdown */,
-				7B38990703AA743F34DAC285 /* Pods-CLCBannerNotifications_Example-acknowledgements.plist */,
-				A5068B22B505D40680A8AE66 /* Pods-CLCBannerNotifications_Example-dummy.m */,
-				E26C4FB78D2B1F5A3DC7F674 /* Pods-CLCBannerNotifications_Example-environment.h */,
-				8856E924DBE15A006B625657 /* Pods-CLCBannerNotifications_Example-resources.sh */,
-				33B1DE67D95394030FC4ECD1 /* Pods-CLCBannerNotifications_Example.debug.xcconfig */,
-				83946DA393B5931F48B58643 /* Pods-CLCBannerNotifications_Example.release.xcconfig */,
-			);
-			name = "Pods-CLCBannerNotifications_Example";
-			path = "Target Support Files/Pods-CLCBannerNotifications_Example";
-			sourceTree = "<group>";
-		};
-		12169E5CFB9293F8706FE187 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				76C62106179FB468D781BB96 /* Controllers */,
-				CFF4B0C2F41D017025CC584E /* Notification */,
-				4BF19D5ABFC81641015EB965 /* Views */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		1EA615B7FD89901F5D07DD0F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3CD5F480F5C6A5BCA1463B21 /* Pod */,
+				A5E9296041684C776A88E879 /* Pod */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		29D54DCEC0E42C2DAD1C370F /* Assets */ = {
+		06DDF0D48D9E4C894C9866B8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8437E378F9EAEB3A31426339 /* icon-cancel-white.png */,
-				06D26B4B3559DCDCAABE2C10 /* icon-cancel-white@2x.png */,
+				4107C6364F1E69D1B17E5D6F /* Pods-CLCBannerNotifications_Example */,
+				72E0D244010200B1AC9D3492 /* Pods-CLCBannerNotifications_Tests */,
 			);
-			path = Assets;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		33CDA1759D1179084A56FF76 /* CLCBannerNotifications */ = {
+		19690E9FCC52070E9127E184 /* CLCBannerNotifications */ = {
 			isa = PBXGroup;
 			children = (
-				50992A565926F7857E1ADC04 /* Pod */,
-				1EA615B7FD89901F5D07DD0F /* Resources */,
-				EA1942D30A997664A4CBE883 /* Support Files */,
+				85FCF67F5DE52D5B9D645EC1 /* Pod */,
+				068BA5A8F02B5C044167C874 /* Resources */,
+				C3CB195B63AD83ABEA641745 /* Support Files */,
 			);
 			name = CLCBannerNotifications;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3CD5F480F5C6A5BCA1463B21 /* Pod */ = {
+		289D78ED406AF6968A13B508 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				29D54DCEC0E42C2DAD1C370F /* Assets */,
+				D9803CA4B7E331FADCEC0060 /* icon-cancel-white.png */,
+				F87A831C95A09B475C45DFFD /* icon-cancel-white@2x.png */,
 			);
-			path = Pod;
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		4BF19D5ABFC81641015EB965 /* Views */ = {
+		3EBB060E369100672F1FF3E0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8131A945094BDC9A32CE5CD9 /* CLCNotificationBannerView.h */,
-				139929932129123F82856E93 /* CLCNotificationBannerView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		50992A565926F7857E1ADC04 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				12169E5CFB9293F8706FE187 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		76C62106179FB468D781BB96 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0755A015D226FD69D61895E4 /* CLCNotificationViewController.h */,
-				0521F83B3069412544306E70 /* CLCNotificationViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		799859839AD8381190FAE6E3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				042A18655F405C169E986AD7 /* Pods-CLCBannerNotifications_Example */,
-				C863E1ABA0BCB2D583899EB0 /* Pods-CLCBannerNotifications_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AB19B287500041790005EA67 = {
-			isa = PBXGroup;
-			children = (
-				4082758A4782C5A459FFFDE9 /* Podfile */,
-				034F0B1972FEEE439085EE91 /* Development Pods */,
-				E4DED4C67D9E3AA31676767E /* Frameworks */,
-				CD9AAE05DEEDA6516F6ACB61 /* Products */,
-				799859839AD8381190FAE6E3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BB516A92EFD35A859ED46F9A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				38453FD915A7CE071CADA6E7 /* Foundation.framework */,
-				D1DC0CC51A2D694DF8295BD9 /* UIKit.framework */,
+				80BDDEEE1DA6EFDAA3F5DEEF /* Foundation.framework */,
+				C2C7E7E7234914F6C42E3C7C /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C863E1ABA0BCB2D583899EB0 /* Pods-CLCBannerNotifications_Tests */ = {
+		4107C6364F1E69D1B17E5D6F /* Pods-CLCBannerNotifications_Example */ = {
 			isa = PBXGroup;
 			children = (
-				9B53AD8DE06A61CBB17BC20F /* Pods-CLCBannerNotifications_Tests-acknowledgements.markdown */,
-				9F6D4B65AABB0891523204F7 /* Pods-CLCBannerNotifications_Tests-acknowledgements.plist */,
-				300B2FFC25E179ED0F79DD79 /* Pods-CLCBannerNotifications_Tests-dummy.m */,
-				ED82121FF92AB7ADE1D177A8 /* Pods-CLCBannerNotifications_Tests-environment.h */,
-				BBAC0750C8359DFFF59827E4 /* Pods-CLCBannerNotifications_Tests-resources.sh */,
-				68F07B66CCC6F5E823AD2D97 /* Pods-CLCBannerNotifications_Tests.debug.xcconfig */,
-				512390992B01DB92ED475069 /* Pods-CLCBannerNotifications_Tests.release.xcconfig */,
+				C25E63EC98BDB0DCEA057610 /* Pods-CLCBannerNotifications_Example-acknowledgements.markdown */,
+				D723A7BBBC9F369EE5C28A1C /* Pods-CLCBannerNotifications_Example-acknowledgements.plist */,
+				15C1F8E9004C83D407CDAD27 /* Pods-CLCBannerNotifications_Example-dummy.m */,
+				1D49DD1187C6C3F6658F1898 /* Pods-CLCBannerNotifications_Example-environment.h */,
+				DF3C6548F1D84CD44B767B6B /* Pods-CLCBannerNotifications_Example-resources.sh */,
+				124B789B225624CA59E80C4B /* Pods-CLCBannerNotifications_Example.debug.xcconfig */,
+				F96F73F2A89F2E7182CA4414 /* Pods-CLCBannerNotifications_Example.release.xcconfig */,
+			);
+			name = "Pods-CLCBannerNotifications_Example";
+			path = "Target Support Files/Pods-CLCBannerNotifications_Example";
+			sourceTree = "<group>";
+		};
+		60316B83DE4EDFDFBC7E4792 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6959B090B8F908018B867464 /* CLCBannerNotificationDisplayController.h */,
+				8C506F8F32D8CB50D0A0950C /* CLCBannerNotificationDisplayController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		67084481E6862EA90B1B8177 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				8B2665442FC832F9778BE2CD /* CLCBannerNotification.h */,
+				FD55B483BE7609618DCFB198 /* CLCBannerNotification.m */,
+				E111815DF3EE0D4299C31CFC /* CLCBannerNotificationManager.h */,
+				489849B13527DD00A524CF47 /* CLCBannerNotificationManager.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		691022045A9C2E9FBF104AD2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19690E9FCC52070E9127E184 /* CLCBannerNotifications */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		692DD5C4F03107B2AB1CC515 = {
+			isa = PBXGroup;
+			children = (
+				3462717D4AC265379B8BCB00 /* Podfile */,
+				691022045A9C2E9FBF104AD2 /* Development Pods */,
+				7C5BB537FEDEFF1DD2BFB6EE /* Frameworks */,
+				CE2BF234B028D8B18DE89089 /* Products */,
+				06DDF0D48D9E4C894C9866B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		72E0D244010200B1AC9D3492 /* Pods-CLCBannerNotifications_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				86D379DEFEF9C146A76FE68F /* Pods-CLCBannerNotifications_Tests-acknowledgements.markdown */,
+				6D93C95032293BEE40C1076C /* Pods-CLCBannerNotifications_Tests-acknowledgements.plist */,
+				5B4F097EC0AA95D5B7994EDE /* Pods-CLCBannerNotifications_Tests-dummy.m */,
+				4A7D6F9925CC807FA5654908 /* Pods-CLCBannerNotifications_Tests-environment.h */,
+				E8825E2D1AEFAFBFDCD46033 /* Pods-CLCBannerNotifications_Tests-resources.sh */,
+				23632E30D166EE683340CE10 /* Pods-CLCBannerNotifications_Tests.debug.xcconfig */,
+				2DF49113B060B14EDAECF7DA /* Pods-CLCBannerNotifications_Tests.release.xcconfig */,
 			);
 			name = "Pods-CLCBannerNotifications_Tests";
 			path = "Target Support Files/Pods-CLCBannerNotifications_Tests";
 			sourceTree = "<group>";
 		};
-		CD9AAE05DEEDA6516F6ACB61 /* Products */ = {
+		7C5BB537FEDEFF1DD2BFB6EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5862CD4E250C9BF1B3C8D16A /* CLCBannerNotifications.bundle */,
-				EC60E4B8E1383C7F87FC4CB1 /* CLCBannerNotifications.bundle */,
-				9DD4A2A0FB38E40285F61142 /* libPods-CLCBannerNotifications_Example.a */,
-				CDCCC65B69F2A183DE8D316C /* libPods-CLCBannerNotifications_Example-CLCBannerNotifications.a */,
-				5D443EF303EA2BB41F7C6325 /* libPods-CLCBannerNotifications_Tests.a */,
-				38717908B4EB150F9A3BBCE9 /* libPods-CLCBannerNotifications_Tests-CLCBannerNotifications.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CFF4B0C2F41D017025CC584E /* Notification */ = {
-			isa = PBXGroup;
-			children = (
-				1731C2B02B2A7526CC0D5DAE /* CLCBannerNotification.h */,
-				1F116D5B279EE97BB01C46AA /* CLCBannerNotification.m */,
-				F5345106C2A9A5EF505F3B9F /* CLCBannerNotificationManager.h */,
-				70AC863A9ADAF8B7D5377CD8 /* CLCBannerNotificationManager.m */,
-			);
-			path = Notification;
-			sourceTree = "<group>";
-		};
-		E4DED4C67D9E3AA31676767E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BB516A92EFD35A859ED46F9A /* iOS */,
+				3EBB060E369100672F1FF3E0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA1942D30A997664A4CBE883 /* Support Files */ = {
+		85FCF67F5DE52D5B9D645EC1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				371E04EF76210214375B96BF /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications.xcconfig */,
-				842F8F83FD3F211F338C8E7E /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig */,
-				C7449208C696B4C709076A4C /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m */,
-				3A4032F787B072863C6DE706 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch */,
-				B54F5C691A24102E92AD4FF2 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications.xcconfig */,
-				C5F77EAC80787295D32A8BB1 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig */,
-				B915A1AE625AD5DE0B4D4D7B /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m */,
-				0F17840C996DCA33C10D0B2F /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch */,
+				BC9D067F053F572876D25418 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A5602536DF887CC0843FB04B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11BF136D1950DCA382ED3BFF /* CLCBannerNotificationView.h */,
+				0C69B306849B3E7BDC04D0D6 /* CLCBannerNotificationView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5E9296041684C776A88E879 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				289D78ED406AF6968A13B508 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC9D067F053F572876D25418 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60316B83DE4EDFDFBC7E4792 /* Controllers */,
+				67084481E6862EA90B1B8177 /* Notification */,
+				A5602536DF887CC0843FB04B /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C3CB195B63AD83ABEA641745 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33CF3D2EDEDD4174DAD1B190 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications.xcconfig */,
+				98CC8767104F194EA8CF199C /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig */,
+				68448F66BC5E6D1065D773F2 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m */,
+				5B88634F64858B1610518335 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch */,
+				EFE385856EDDC2F1A07EAC5E /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications.xcconfig */,
+				1915BD91A586A1358F18AB99 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig */,
+				7ABDF445501ADD9A0C4C9F4E /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m */,
+				5FEF91B2DB5EE832C7E2C094 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-CLCBannerNotifications_Example-CLCBannerNotifications";
 			sourceTree = "<group>";
 		};
+		CE2BF234B028D8B18DE89089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145238279200382FA2272B86 /* CLCBannerNotifications.bundle */,
+				B2CB1D3AD315F4CF82A8B37D /* CLCBannerNotifications.bundle */,
+				CBBFBFBF3AF3918D1BDEC44A /* libPods-CLCBannerNotifications_Example.a */,
+				E52CABB60057BF3A2A8A6DB9 /* libPods-CLCBannerNotifications_Example-CLCBannerNotifications.a */,
+				8D5A904D25A4FBCA962538B2 /* libPods-CLCBannerNotifications_Tests.a */,
+				AEE7CF7A309BCA0691FDCE01 /* libPods-CLCBannerNotifications_Tests-CLCBannerNotifications.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A76747947E1C5F7178C1590 /* Headers */ = {
+		8DCED3244717931BD671C96B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E44827FFEA45C6D89E220A /* CLCBannerNotification.h in Headers */,
-				AB2A7F88B269806A56D19B5D /* CLCBannerNotificationManager.h in Headers */,
-				9309375064704C093A038DF0 /* CLCNotificationBannerView.h in Headers */,
-				1C30FC15BD159CE0080061C2 /* CLCNotificationViewController.h in Headers */,
+				B0076EF62E9046861EF314E6 /* CLCBannerNotification.h in Headers */,
+				1B96AF30CBFF8AFCB1EACCAB /* CLCBannerNotificationDisplayController.h in Headers */,
+				34FDF439EA4DEF2CCF2FD929 /* CLCBannerNotificationManager.h in Headers */,
+				3A0D6EE2545B23277C49C833 /* CLCBannerNotificationView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4203A0B962EB462D4A04CC9D /* Headers */ = {
+		D01D9C67A212F31AE955B084 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67808AB5EFA7A2F300985391 /* CLCBannerNotification.h in Headers */,
-				DFF5D85B36E6456819B745EA /* CLCBannerNotificationManager.h in Headers */,
-				683222F37CFB16F009CC989C /* CLCNotificationBannerView.h in Headers */,
-				8C1F1D8E3BA66976979CE15C /* CLCNotificationViewController.h in Headers */,
+				9C70A3F5D6FB842A648265FF /* CLCBannerNotification.h in Headers */,
+				B165A6F33F976C9D0FE19CB2 /* CLCBannerNotificationDisplayController.h in Headers */,
+				D5680733C249C9433B77A89A /* CLCBannerNotificationManager.h in Headers */,
+				7BCD4332A931D102F8715C80 /* CLCBannerNotificationView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0A405E139DFCDEA632CEA973 /* Pods-CLCBannerNotifications_Example */ = {
+		2154D409D5A6CEF285DB66B9 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56FD206D39F624EA3F451FF5 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example" */;
+			buildConfigurationList = 511D095FBAA44D4B28633682 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications" */;
 			buildPhases = (
-				5703A89587A5ED9325837BD6 /* Sources */,
-				0493292668C0000D63821538 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9B6F7F0DD6ED58939A76902 /* PBXTargetDependency */,
-			);
-			name = "Pods-CLCBannerNotifications_Example";
-			productName = "Pods-CLCBannerNotifications_Example";
-			productReference = 9DD4A2A0FB38E40285F61142 /* libPods-CLCBannerNotifications_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		34AB50097D162B360CFD2011 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F50F05149531ECE9D8E7F2D1 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications" */;
-			buildPhases = (
-				7179EC1D24A3AD2C9CF5701E /* Sources */,
-				90F8556D9B761BF84663743A /* Frameworks */,
-				4203A0B962EB462D4A04CC9D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9180F392F8158CEB08A2897 /* PBXTargetDependency */,
-			);
-			name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications";
-			productName = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications";
-			productReference = 38717908B4EB150F9A3BBCE9 /* libPods-CLCBannerNotifications_Tests-CLCBannerNotifications.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		6E39704FB13EF7BE93133F6F /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5040AF25586B959B4F9063C9 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications" */;
-			buildPhases = (
-				B33C47AC70040E657A597436 /* Sources */,
-				F075B723D9D32F7F39252807 /* Frameworks */,
-				27BF83368D3AD05586763418 /* Resources */,
+				4FCFE2CE77BA0242756A332D /* Sources */,
+				B903A322A09FEE0204D6D462 /* Frameworks */,
+				63E2A1F88DFFBDA6D4AA58B9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -430,16 +395,16 @@
 			);
 			name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications";
 			productName = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications";
-			productReference = 5862CD4E250C9BF1B3C8D16A /* CLCBannerNotifications.bundle */;
+			productReference = 145238279200382FA2272B86 /* CLCBannerNotifications.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		A638D3A8245256B424E9D9A7 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications */ = {
+		36BEBA4FCCE81CD9D908D923 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E19BE89BAEBD97E7A5A993D /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications" */;
+			buildConfigurationList = 2D0D211F000A367A0CCF3A53 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications" */;
 			buildPhases = (
-				079F957DB0017E48A9B27C30 /* Sources */,
-				1C52C09326419EED8D41D579 /* Frameworks */,
-				6AF6E73B7EDD26D73FF242C5 /* Resources */,
+				9B149D957F238869E847D1B1 /* Sources */,
+				DCF856B95E95D17B1DBE5E71 /* Frameworks */,
+				FF73B74E4DF5CA47A7DDA34D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -447,197 +412,216 @@
 			);
 			name = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications";
 			productName = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications";
-			productReference = EC60E4B8E1383C7F87FC4CB1 /* CLCBannerNotifications.bundle */;
+			productReference = B2CB1D3AD315F4CF82A8B37D /* CLCBannerNotifications.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		D96D0803F89E74192C66837B /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications */ = {
+		504B06CEEB97FB3AF71112BD /* Pods-CLCBannerNotifications_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2C0AD52E909E983C59B60EC /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example-CLCBannerNotifications" */;
+			buildConfigurationList = 7269ED18C0B40591FFE7032F /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example" */;
 			buildPhases = (
-				EB870AFE9FAEA1DA7A2CA86F /* Sources */,
-				2A855F266821BFABECD8FF69 /* Frameworks */,
-				2A76747947E1C5F7178C1590 /* Headers */,
+				5D2358CBB9E74C3FA4737B47 /* Sources */,
+				EF56C86BA3500C463952F4AD /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BFFCA379AF03B9BE61ECEF4 /* PBXTargetDependency */,
+				0A3DE92BEE5B5636C04D6531 /* PBXTargetDependency */,
+			);
+			name = "Pods-CLCBannerNotifications_Example";
+			productName = "Pods-CLCBannerNotifications_Example";
+			productReference = CBBFBFBF3AF3918D1BDEC44A /* libPods-CLCBannerNotifications_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DE7CDD47337240D4588AEFA /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3846CC2283906420D803511C /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example-CLCBannerNotifications" */;
+			buildPhases = (
+				BD331AE0CFD5BF5C91016B1C /* Sources */,
+				6112E680000C51E09DAC64BD /* Frameworks */,
+				8DCED3244717931BD671C96B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9275ED980711CDC5BF792769 /* PBXTargetDependency */,
 			);
 			name = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications";
 			productName = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications";
-			productReference = CDCCC65B69F2A183DE8D316C /* libPods-CLCBannerNotifications_Example-CLCBannerNotifications.a */;
+			productReference = E52CABB60057BF3A2A8A6DB9 /* libPods-CLCBannerNotifications_Example-CLCBannerNotifications.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F2ADAF08FB581C993769B9F1 /* Pods-CLCBannerNotifications_Tests */ = {
+		DD412F99AA017896CB5BFC62 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB20264F43BE5CCDF9F3F980 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests" */;
+			buildConfigurationList = 5C5DF9505D2D993BD0D08B01 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications" */;
 			buildPhases = (
-				F55B873B1A99AA138A9B504C /* Sources */,
-				ED5270653F5AC25A89B3F1AB /* Frameworks */,
+				11122D4BEB4F19B777EDD797 /* Sources */,
+				BE81DA7F82A62811013C88B7 /* Frameworks */,
+				D01D9C67A212F31AE955B084 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B7D9091D81062674087A0388 /* PBXTargetDependency */,
+				67F0BD7FABFFBD9998B29462 /* PBXTargetDependency */,
+			);
+			name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications";
+			productName = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications";
+			productReference = AEE7CF7A309BCA0691FDCE01 /* libPods-CLCBannerNotifications_Tests-CLCBannerNotifications.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F74FE97694C789E6E81A9CAD /* Pods-CLCBannerNotifications_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DACC419FDC25BB29DB8751 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests" */;
+			buildPhases = (
+				B83BF8F459F3151C8A6E7316 /* Sources */,
+				3B59F570AE98861D687D28CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE69EDB82B197F5DADBB32CF /* PBXTargetDependency */,
 			);
 			name = "Pods-CLCBannerNotifications_Tests";
 			productName = "Pods-CLCBannerNotifications_Tests";
-			productReference = 5D443EF303EA2BB41F7C6325 /* libPods-CLCBannerNotifications_Tests.a */;
+			productReference = 8D5A904D25A4FBCA962538B2 /* libPods-CLCBannerNotifications_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4315B227007922FEA86062E8 /* Project object */ = {
+		5C83AEA21AA77CDE95EF31EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 91DBFA77685D91F792EFDDF3 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 278D22558F05CEA93A0AB8C2 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AB19B287500041790005EA67;
-			productRefGroup = CD9AAE05DEEDA6516F6ACB61 /* Products */;
+			mainGroup = 692DD5C4F03107B2AB1CC515;
+			productRefGroup = CE2BF234B028D8B18DE89089 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A405E139DFCDEA632CEA973 /* Pods-CLCBannerNotifications_Example */,
-				D96D0803F89E74192C66837B /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications */,
-				A638D3A8245256B424E9D9A7 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications */,
-				F2ADAF08FB581C993769B9F1 /* Pods-CLCBannerNotifications_Tests */,
-				34AB50097D162B360CFD2011 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications */,
-				6E39704FB13EF7BE93133F6F /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications */,
+				504B06CEEB97FB3AF71112BD /* Pods-CLCBannerNotifications_Example */,
+				8DE7CDD47337240D4588AEFA /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications */,
+				36BEBA4FCCE81CD9D908D923 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications */,
+				F74FE97694C789E6E81A9CAD /* Pods-CLCBannerNotifications_Tests */,
+				DD412F99AA017896CB5BFC62 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications */,
+				2154D409D5A6CEF285DB66B9 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27BF83368D3AD05586763418 /* Resources */ = {
+		63E2A1F88DFFBDA6D4AA58B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				151FD6EB26253BFDCB2A2C94 /* icon-cancel-white.png in Resources */,
-				F8D468AEECB20068620E13D2 /* icon-cancel-white@2x.png in Resources */,
+				A5EBB0824577DAA86E821ECD /* icon-cancel-white.png in Resources */,
+				3ABA35029C0867299EA2737A /* icon-cancel-white@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AF6E73B7EDD26D73FF242C5 /* Resources */ = {
+		FF73B74E4DF5CA47A7DDA34D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900AF50E9DF8C5C204251915 /* icon-cancel-white.png in Resources */,
-				0C74A8401F549E7AD7848248 /* icon-cancel-white@2x.png in Resources */,
+				EE880DE648ACE943CCD4D6E3 /* icon-cancel-white.png in Resources */,
+				01D419EDC6D3CB0AFD17977F /* icon-cancel-white@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		079F957DB0017E48A9B27C30 /* Sources */ = {
+		11122D4BEB4F19B777EDD797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C149E53387A27337AB7816E /* CLCBannerNotification.m in Sources */,
+				C18C96CE1B801B96A1D27047 /* CLCBannerNotificationDisplayController.m in Sources */,
+				24570FF3EB92366E46A44E43 /* CLCBannerNotificationManager.m in Sources */,
+				ABC479FFBBC4BF1EE56D5B1E /* CLCBannerNotificationView.m in Sources */,
+				8A75C393E26D4706978923F6 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FCFE2CE77BA0242756A332D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5703A89587A5ED9325837BD6 /* Sources */ = {
+		5D2358CBB9E74C3FA4737B47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE824AD07A2EB4BC6F1F0FB4 /* Pods-CLCBannerNotifications_Example-dummy.m in Sources */,
+				119CAF6F59C5918C83B43492 /* Pods-CLCBannerNotifications_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7179EC1D24A3AD2C9CF5701E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90ABA56F8E26F33DC915A0F8 /* CLCBannerNotification.m in Sources */,
-				BEFB272B568F6F277AA3A7FB /* CLCBannerNotificationManager.m in Sources */,
-				0238609A7E9ED737F8E067BB /* CLCNotificationBannerView.m in Sources */,
-				E4EED2CDC9590F30DCEF721E /* CLCNotificationViewController.m in Sources */,
-				21366C809032A11C46C3090A /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B33C47AC70040E657A597436 /* Sources */ = {
+		9B149D957F238869E847D1B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB870AFE9FAEA1DA7A2CA86F /* Sources */ = {
+		B83BF8F459F3151C8A6E7316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				175E1E7816779927EF9AFF39 /* CLCBannerNotification.m in Sources */,
-				CD09921BC503B66F16A1AAA7 /* CLCBannerNotificationManager.m in Sources */,
-				B8D9FA3BE36C753C61679BE2 /* CLCNotificationBannerView.m in Sources */,
-				68C6FD76D81603E63F13BB9F /* CLCNotificationViewController.m in Sources */,
-				C7475D029F0272A9681A58F7 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m in Sources */,
+				48F1A8337A2BD560DC0CDA5D /* Pods-CLCBannerNotifications_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F55B873B1A99AA138A9B504C /* Sources */ = {
+		BD331AE0CFD5BF5C91016B1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0823096522C89663D3099A42 /* Pods-CLCBannerNotifications_Tests-dummy.m in Sources */,
+				C7A4AC537154AB836C6E7D22 /* CLCBannerNotification.m in Sources */,
+				F589CCAA1042F6292FFEF5D1 /* CLCBannerNotificationDisplayController.m in Sources */,
+				2433FCC24E34E5ABF82D2AD4 /* CLCBannerNotificationManager.m in Sources */,
+				E6B4CD69736141C45AFC719B /* CLCBannerNotificationView.m in Sources */,
+				A98957F0DEE1DCFB3C605A1D /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4BFFCA379AF03B9BE61ECEF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications";
-			target = A638D3A8245256B424E9D9A7 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications */;
-			targetProxy = 658C7131205ADD8D69FCEA3C /* PBXContainerItemProxy */;
-		};
-		A9B6F7F0DD6ED58939A76902 /* PBXTargetDependency */ = {
+		0A3DE92BEE5B5636C04D6531 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications";
-			target = D96D0803F89E74192C66837B /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications */;
-			targetProxy = DEDF555C6786248F91AEF218 /* PBXContainerItemProxy */;
+			target = 8DE7CDD47337240D4588AEFA /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications */;
+			targetProxy = D308E0992D721A483CB09A73 /* PBXContainerItemProxy */;
 		};
-		B7D9091D81062674087A0388 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications";
-			target = 34AB50097D162B360CFD2011 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications */;
-			targetProxy = 20793682C2C325016FA9E927 /* PBXContainerItemProxy */;
-		};
-		B9180F392F8158CEB08A2897 /* PBXTargetDependency */ = {
+		67F0BD7FABFFBD9998B29462 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications";
-			target = 6E39704FB13EF7BE93133F6F /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications */;
-			targetProxy = AE9C0F2C7DBE4E84BDDD956B /* PBXContainerItemProxy */;
+			target = 2154D409D5A6CEF285DB66B9 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications */;
+			targetProxy = F46FA4F1E020D5001C9F07AC /* PBXContainerItemProxy */;
+		};
+		9275ED980711CDC5BF792769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications";
+			target = 36BEBA4FCCE81CD9D908D923 /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications */;
+			targetProxy = 0F032430E47A342FA3BEC2A1 /* PBXContainerItemProxy */;
+		};
+		BE69EDB82B197F5DADBB32CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications";
+			target = DD412F99AA017896CB5BFC62 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications */;
+			targetProxy = BA25F05E3F77E559FF8A46FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08F3B05DB9543D9EE92E5F8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 842F8F83FD3F211F338C8E7E /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CLCBannerNotifications_Example-CLCBannerNotifications/Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1339C142AAF023FA778CECDF /* Release */ = {
+		149A9794F3E70E503AC9E43C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -648,186 +632,7 @@
 			};
 			name = Release;
 		};
-		1A2BF123B9878A6245B33AB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33B1DE67D95394030FC4ECD1 /* Pods-CLCBannerNotifications_Example.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3603F3DEF86AFA7581428239 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68F07B66CCC6F5E823AD2D97 /* Pods-CLCBannerNotifications_Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4776C9547232ACD6CECD7CBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5F77EAC80787295D32A8BB1 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		59233615B51AFBC87FB93455 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83946DA393B5931F48B58643 /* Pods-CLCBannerNotifications_Example.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5DAE4DC6D0E86263D0E9DA6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CLCBannerNotifications;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5ED047D33C2EFF53AA0BF72C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5F77EAC80787295D32A8BB1 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		829A2149F0EDB4AE16B8DCB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 512390992B01DB92ED475069 /* Pods-CLCBannerNotifications_Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		99DFE31A2399271ED68C4612 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 842F8F83FD3F211F338C8E7E /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CLCBannerNotifications_Example-CLCBannerNotifications/Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A188DBEBB4856BE11F7D01BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A3B9DF3BBB3E134239D33CBE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CLCBannerNotifications;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		CD3D16E1539B8B854D19C627 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CLCBannerNotifications;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		E3AFE5C2D1EFF3C7B0441D22 /* Debug */ = {
+		3D1E65F4952A397179C8D6A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -866,73 +671,268 @@
 			};
 			name = Debug;
 		};
+		4E2EF6F2F95510452E33CD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CCAF6AE8B8DDF091F5C83D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124B789B225624CA59E80C4B /* Pods-CLCBannerNotifications_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A301FE8BE0FA366CA383514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CC8767104F194EA8CF199C /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CLCBannerNotifications_Example-CLCBannerNotifications/Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8DAF4D5CC2F1F1030A1D2A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CLCBannerNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9D913D2BE2A4A551F3F4F322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23632E30D166EE683340CE10 /* Pods-CLCBannerNotifications_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BADCBC0E19E0DAAB960FE39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1915BD91A586A1358F18AB99 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C1003C8CE4F9FF4AFFA9FFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CLCBannerNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D9E24E5AA9CE3A3EFDDEAD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1915BD91A586A1358F18AB99 /* Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications/Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDC6B6016D29BA6CBE54B835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96F73F2A89F2E7182CA4414 /* Pods-CLCBannerNotifications_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ED1DE8C00E24CCD5DDB72D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CC8767104F194EA8CF199C /* Pods-CLCBannerNotifications_Example-CLCBannerNotifications-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CLCBannerNotifications_Example-CLCBannerNotifications/Pods-CLCBannerNotifications_Example-CLCBannerNotifications-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8AAD2E3EADB5759DAE51C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF49113B060B14EDAECF7DA /* Pods-CLCBannerNotifications_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FCD31801473C4CEFB251E03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CLCBannerNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E19BE89BAEBD97E7A5A993D /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications" */ = {
+		278D22558F05CEA93A0AB8C2 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3B9DF3BBB3E134239D33CBE /* Debug */,
-				1339C142AAF023FA778CECDF /* Release */,
+				3D1E65F4952A397179C8D6A4 /* Debug */,
+				4E2EF6F2F95510452E33CD85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5040AF25586B959B4F9063C9 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications" */ = {
+		2D0D211F000A367A0CCF3A53 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example-CLCBannerNotifications-CLCBannerNotifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD3D16E1539B8B854D19C627 /* Debug */,
-				5DAE4DC6D0E86263D0E9DA6E /* Release */,
+				C1003C8CE4F9FF4AFFA9FFE4 /* Debug */,
+				8DAF4D5CC2F1F1030A1D2A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56FD206D39F624EA3F451FF5 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example" */ = {
+		3846CC2283906420D803511C /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example-CLCBannerNotifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2BF123B9878A6245B33AB9 /* Debug */,
-				59233615B51AFBC87FB93455 /* Release */,
+				ED1DE8C00E24CCD5DDB72D9B /* Debug */,
+				7A301FE8BE0FA366CA383514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91DBFA77685D91F792EFDDF3 /* Build configuration list for PBXProject "Pods" */ = {
+		511D095FBAA44D4B28633682 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications-CLCBannerNotifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3AFE5C2D1EFF3C7B0441D22 /* Debug */,
-				A188DBEBB4856BE11F7D01BB /* Release */,
+				FCD31801473C4CEFB251E03F /* Debug */,
+				149A9794F3E70E503AC9E43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2C0AD52E909E983C59B60EC /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example-CLCBannerNotifications" */ = {
+		5C5DF9505D2D993BD0D08B01 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99DFE31A2399271ED68C4612 /* Debug */,
-				08F3B05DB9543D9EE92E5F8C /* Release */,
+				BADCBC0E19E0DAAB960FE39B /* Debug */,
+				D9E24E5AA9CE3A3EFDDEAD77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB20264F43BE5CCDF9F3F980 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests" */ = {
+		7269ED18C0B40591FFE7032F /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3603F3DEF86AFA7581428239 /* Debug */,
-				829A2149F0EDB4AE16B8DCB4 /* Release */,
+				6CCAF6AE8B8DDF091F5C83D1 /* Debug */,
+				DDC6B6016D29BA6CBE54B835 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F50F05149531ECE9D8E7F2D1 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests-CLCBannerNotifications" */ = {
+		D2DACC419FDC25BB29DB8751 /* Build configuration list for PBXNativeTarget "Pods-CLCBannerNotifications_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ED047D33C2EFF53AA0BF72C /* Debug */,
-				4776C9547232ACD6CECD7CBA /* Release */,
+				9D913D2BE2A4A551F3F4F322 /* Debug */,
+				F8AAD2E3EADB5759DAE51C03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4315B227007922FEA86062E8 /* Project object */;
+	rootObject = 5C83AEA21AA77CDE95EF31EC /* Project object */;
 }

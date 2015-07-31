@@ -23,7 +23,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 
-    CLCBannerNotification *notification = [CLCBannerNotification notificationWithMessage:@"Thanks for using CLCBannerNotifications!" displayTime:5 completion:nil];
+    CLCBannerNotification *notification = [CLCBannerNotification notificationWithMessage:@"Thanks for using CLCBannerNotifications!" completion:nil];
     [[CLCBannerNotificationManager sharedManager] enqueueNotification:notification];
 }
 
