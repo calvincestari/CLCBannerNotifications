@@ -1,6 +1,0 @@
-#include "Pods-CLCBannerNotifications_Example-CLCBannerNotifications.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/CLCBannerNotifications" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CLCBannerNotifications"
-OTHER_LDFLAGS = ${PODS_CLCBANNERNOTIFICATIONS_EXAMPLE_CLCBANNERNOTIFICATIONS_OTHER_LDFLAGS} -ObjC
-PODS_ROOT = ${SRCROOT}
-SKIP_INSTALL = YES
