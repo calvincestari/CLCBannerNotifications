@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CLCBannerNotifications"
-  s.version          = "0.4"
+  s.version          = "0.4.1"
   s.summary          = "A simple way to add banner style notifications to your iOS app."
   s.homepage         = "https://github.com/calvincestari/CLCBannerNotifications"
   s.license          = 'MIT'

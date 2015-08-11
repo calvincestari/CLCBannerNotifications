@@ -66,12 +66,12 @@ static CGFloat const CLCBannerNotificationViewLabelPadding = 15.0f;
     NSDictionary *layoutViews = NSDictionaryOfVariableBindings(label, imageView);
     NSMutableArray *layoutConstraints = [NSMutableArray array];
 
-    [layoutConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[imageView][label]-15-|" options:NSLayoutFormatDirectionLeadingToTrailing metrics:nil views:layoutViews]];
+    [layoutConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[imageView]-0@450-[label]-15-|" options:NSLayoutFormatDirectionLeadingToTrailing metrics:nil views:layoutViews]];
     [layoutConstraints addObjectsFromArray:@[ [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:label attribute:NSLayoutAttributeCenterY multiplier:1 constant:0] ]];
     [layoutConstraints addObjectsFromArray:@[ [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:imageView attribute:NSLayoutAttributeCenterY multiplier:1 constant:0] ]];
     [layoutConstraints addObjectsFromArray:@[ [NSLayoutConstraint constraintWithItem:imageView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:imageView attribute:NSLayoutAttributeWidth multiplier:1 constant:0] ]];
     [layoutConstraints addObject:(self.leftImageViewWidthConstraint = [NSLayoutConstraint constraintWithItem:self.leftImageView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:CLCBannerNotificationViewImageViewWidth])];
-    [layoutConstraints addObject:(self.messageLabelLeadingConstraint = [NSLayoutConstraint constraintWithItem:self.leftImageView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.messageLabel attribute:NSLayoutAttributeLeft multiplier:1 constant:0])];
+    [layoutConstraints addObject:(self.messageLabelLeadingConstraint = [NSLayoutConstraint constraintWithItem:self.messageLabel attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.leftImageView attribute:NSLayoutAttributeRight multiplier:1 constant:0])];
 
     [self addConstraints:layoutConstraints];
 
@@ -82,7 +82,7 @@ static CGFloat const CLCBannerNotificationViewLabelPadding = 15.0f;
     if (context == CLCBannerNotificationViewLeftImageObserverContext) {
         if ([change[NSKeyValueChangeNewKey] isEqual:[NSNull null]]) {
             self.leftImageViewWidthConstraint.constant = 0;
-            self.messageLabelLeadingConstraint.constant = -CLCBannerNotificationViewLabelPadding;
+            self.messageLabelLeadingConstraint.constant = CLCBannerNotificationViewLabelPadding;
 
         } else {
             self.leftImageViewWidthConstraint.constant = CLCBannerNotificationViewImageViewWidth;
